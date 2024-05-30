@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 200px;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+    color: yellow;
+}
+button a{
+    text-decoration: none;
+    color: gray;
+}
+button:hover{
+    background-color: yellow;
+    color: green;
+
+}
+header{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 5px;
+    background-color: black;
+}
+#menu{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 30%;
+}
+#contenido{
+    height: 65%;
+    color: aliceblue;
+    display: flex;
+    padding-top: 40px;
+    text-align: center;
+}
+#contenido div{
+    border: 1px solid yellow;
+    margin-left: 5px;
+    flex-basis: 50%;
+}
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}

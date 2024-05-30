@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+body{
+    background-image: url(img/OIP.jpg);
+    background-size: 100%;
+}
+main{display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 200px;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+    color: yellow;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+article{
+    color: antiquewhite;
+}
+span{
+    font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+
+}
+#menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+button a{
+    text-decoration: none;
+    color: gray;
+}
+button:hover{
+    background-color: yellow;
+    color: green;
+
+}
